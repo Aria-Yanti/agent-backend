@@ -1,0 +1,30 @@
+# ===== 环境与密钥 =====
+.env
+.env.*
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# ===== Node / 前端依赖 =====
+node_modules/
+package-lock.json
+
+# ===== 运行产物 =====
+.runtime/
+.tmp-tool-results/
+data/outputs/
+runtime/audit_context/
+data/*.db
+data/audit_runtime/
+
+# ===== 编辑器 / 系统 =====
+.idea/
+.vscode/
+.DS_Store
